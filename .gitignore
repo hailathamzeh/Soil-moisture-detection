@@ -1,0 +1,46 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Private or large project artifacts
+data/*
+!data/README.md
+!data/.gitkeep
+models/*
+!models/README.md
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.tif
+*.tiff
+*.pth
+*.pt
+*.onnx
+*.zip
+*.sqlite
+*.sqlite3
+*.db
+*.whl
+
+# Generated caches and reports
+.cache/
+*.csv
+*.xlsx
+*.xls
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
